@@ -12,6 +12,13 @@
 #           8
 # Who do we appreciate?
 
+aList = [2,4,6,8,"Who do we appreciate?"]
+
+number = 0
+while number < len(aList):
+    print aList[number]
+    number = number + 1 
+    
 # Use a loop to complete this, either a for loop or a while loop.
 # Each time through the loop, print out either 2, 4, 6 or 8.
 # When the loop is finished, print "Who do we appreciate?"
